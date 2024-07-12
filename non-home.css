@@ -1,0 +1,57 @@
+* { 
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+html {
+    font-size:62.5%;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #3a3a3a;
+
+}
+.non-home-hero {
+    height:60vh;
+    background-image: linear-gradient(rgba(30,30,30,0.75), rgba(30,30,30,0.75)),url('Shark-hero-3.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    margin-bottom: 7.5rem;
+    display:flex;
+    flex-direction: column;
+}
+.non-home-heading {
+    color:#fff;
+    font-size:4.8rem;
+    font-weight:800;
+    align-self:center;
+margin-top:3.8rem;
+}
+.non-home-body {
+
+    margin:0 auto;
+}
+.non-home-card {
+    padding: 2.5rem 1rem;
+    margin:0 auto;
+    width:75%;
+    padding: 5.5rem 3.5rem;
+    border-radius:8px;
+    box-shadow: 0 0 2.5rem 0 rgb(125,125,125);
+}
+.non-home-card-icon {
+    color:#3298df;
+    width:6rem;
+    height:6rem;
+    margin-bottom:1.8rem;
+}
+.non-home-card-heading {
+    font-family:'Raleway', 'Montserrat',sans-serif;
+    font-size:3.2rem;
+    margin-bottom:1.4rem;
+}
+.non-home-card-text {
+    font-size:1.6rem;
+    line-height:2;
+}
